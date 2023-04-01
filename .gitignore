@@ -9,6 +9,12 @@
 !.yarn/versions
 node_modules
 
+# pnpm package manager
+pnpm-lock.yaml
+
+# nom package manager
+package-lock.json
+
 # Logs
 logs
 *.log
