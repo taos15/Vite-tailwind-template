@@ -16,7 +16,9 @@ export const Home = () => {
   return (
     <>
       <h1>{someState}</h1>
-      <p>{`this data was fetched with react query, id is: 'idForQuery' and the data is: ${data?.title}`}</p>
+      <p>{`this data was fetched with react query, id is: 'idForQuery' and the data is: ${
+        isLoading ? 'Fetching data and ram' : data?.title
+      }`}</p>
     </>
   );
 };
