@@ -12,7 +12,7 @@ node_modules
 # pnpm package manager
 pnpm-lock.yaml
 
-# nom package manager
+# npm package manager
 package-lock.json
 
 # Logs

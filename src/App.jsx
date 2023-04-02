@@ -1,12 +1,13 @@
-import { useState } from 'react';
+import { Home } from './pages/Home';
+import { MainContextProvider } from './utilities/MainContextProvider';
+
+// the Home component is using the context provider to render the text
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className='App'>
-      <p className='read-the-docs'>Hello Vite is working</p>
-    </div>
+    <MainContextProvider>
+      <Home />
+    </MainContextProvider>
   );
 }
 
